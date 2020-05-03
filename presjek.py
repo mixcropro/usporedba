@@ -6,7 +6,7 @@ Tk().withdraw() # we don't want a full GUI, so keep the root window from appeari
 filename = askopenfilename()
 filename2 = askopenfilename()
 
-#uspoređuje filove i izbaci samo razlicite stvari u novi
+
 #vraca sve sto se poklapa
 f = open(filename, "r")
 f1 = open(filename2, "r")
